@@ -47,7 +47,11 @@
       ]
     ],
     "extra": {
-      "apiBaseUrl": "https://api.porikkhaloy.com/api"
-    }
+      "apiBaseUrl": "https://api.porikkhaloy.com/api",
+      "eas": {
+        "projectId": "0104f945-43a9-4034-9406-7f27f8a4e825"
+      }
+    },
+    "owner": "porikkhaloyapp"
   }
 }

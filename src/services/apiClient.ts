@@ -2,7 +2,7 @@ import axios, { AxiosError, InternalAxiosRequestConfig } from "axios";
 import { Storage } from "./storage";
 
 export const API_BASE_URL =
-  process.env.EXPO_PUBLIC_API_BASE_URL || "https://api.porikkhaloy.com/api";
+  process.env.EXPO_PUBLIC_API_BASE_URL || "https://app.porikkhaloy.com/api/v1/student";
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
