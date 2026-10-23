@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Porikkhaloy Mobile (React Native / Expo) — Production Architecture
 
 This directory contains the production-grade, mobile-first React Native application for **Porikkhaloy**, engineered for high performance, Bengali typography fidelity, instant exam interactions, and resilience across Bangladesh mobile networks.
@@ -140,3 +141,6 @@ eas build --platform ios --profile production
 | Pori AI Assistant with Image Questions | `src/screens/ai/PoriAIChatScreen.tsx` | Verified |
 | Leaderboard with Podium & Tiers | `src/screens/leaderboard/LeaderboardScreen.tsx` | Verified |
 | Bengali Font & Line-Height Spacing | `src/theme/typography.ts`, `src/utils/banglaNumber.ts` | Verified |
+=======
+# porikkhaloy_native_app_android
+>>>>>>> f350e3ce6bb54811fa0e509bc1d70718e4f368cd
