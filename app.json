@@ -28,6 +28,7 @@
         "backgroundColor": "#2455D6"
       },
       "package": "com.porikkhaloy.app",
+      "versionCode": 2,
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
