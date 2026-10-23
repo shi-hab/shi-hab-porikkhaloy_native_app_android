@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Porikkhaloy",
+    "slug": "porikkhaloy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2455D6"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.porikkhaloy.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Porikkhaloy needs camera access to scan questions and submit handwritten answers.",
+        "NSPhotoLibraryUsageDescription": "Porikkhaloy needs photo library access to upload problem snapshots to Pori AI."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2455D6"
+      },
+      "package": "com.porikkhaloy.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/HindSiliguri-Regular.ttf",
+            "./assets/fonts/HindSiliguri-Bold.ttf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "apiBaseUrl": "https://api.porikkhaloy.com/api"
+    }
+  }
+}
